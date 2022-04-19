@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: hsl(179, 62%, 43%);
+  --accent-color: hsl(71, 73%, 54%);
+  --bg-color: hsl(204, 43%, 93%);
+  --text-color: hsl(218, 22%, 67%);
+  --box-shadow: 0 15px 30px rgba(0, 81, 171, 0.15);
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  min-height: 100vh;
+}
